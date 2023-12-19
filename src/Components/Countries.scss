@@ -1,0 +1,28 @@
+.countriesContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.countryLink {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  border: 1px solid #ddd;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #f4f4f4;
+  }
+
+  h3 {
+    margin-bottom: 5px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}

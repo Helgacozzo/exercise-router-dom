@@ -1,0 +1,34 @@
+div {
+  font-family: "Arial", sans-serif;
+}
+div header {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div header nav {
+  display: flex;
+  align-items: center;
+}
+div header nav img.logo {
+  max-height: 40px;
+  margin-right: 20px;
+}
+div header nav a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  text-transform: uppercase;
+  color: white;
+}
+div header nav a.active {
+  border-bottom: 2px solid white;
+}
+div header nav a:hover {
+  color: #bab8b8;
+}
+div main {
+  margin-top: 20px;
+}
